@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Header.css";
 import logo from "../images/logo.png";
-import Socials from "./Socials";
+// import Socials from "./Socials";
 
 function Header() {
   return (
