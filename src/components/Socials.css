@@ -1,0 +1,22 @@
+.socials {
+  background-color: var(--blue);
+  height: 90vh;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+
+.social {
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.social:hover {
+  background-color: var(--secondary);
+  padding: 10px;
+}

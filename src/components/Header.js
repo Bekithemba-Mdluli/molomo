@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Header.css";
 import logo from "../images/logo.png";
+import Socials from "./Socials";
 
 function Header() {
   return (
@@ -13,13 +14,17 @@ function Header() {
 
         <ul className="header__nav-list">
           <li>
-            <a href="/">Home</a>
+            <a className="active" href="/">
+              Home
+            </a>
           </li>
           <li>
             <a href="/">About</a>
           </li>
           <li>
-            <a href="/">Products</a>
+            <a className="active" href="/">
+              Products
+            </a>
           </li>
           <li>
             <a href="/">Contact</a>
@@ -31,6 +36,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+      {/* <Socials /> */}
     </header>
   );
 }
