@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --blue: #1c6eda;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
