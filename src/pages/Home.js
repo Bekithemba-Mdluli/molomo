@@ -26,6 +26,7 @@ function Home() {
       </div> */}
       {/* </div> */}
       <Details />
+      <h1>Debug</h1>
     </div>
   );
 }

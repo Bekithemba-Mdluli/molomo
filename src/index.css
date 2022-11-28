@@ -5,6 +5,10 @@
   --secondary: #d3735d;
 }
 
+* {
+  margin: 0;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -31,9 +35,14 @@ h1 {
 }
 
 .button {
+  display: inline-block;
   background-color: var(--blue);
   color: #fff;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
+  width: 150px;
+  text-align: center;
+  padding-block: 15px;
+  /* padding: 10px 30px; */
 }

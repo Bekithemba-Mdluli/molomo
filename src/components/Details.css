@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: column-reverse;
   /* width: 100%; */
+  /* background-color: aqua; */
+  /* margin-bottom: 100px; */
+  margin-top: 30px;
 }
 
 .details__left h2 {
@@ -37,7 +40,8 @@
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
     flex-direction: row;
-    margin-inline: 15%;
+    margin-inline: 10%;
+    gap: 20px;
   }
 
   .details__left {
@@ -57,6 +61,7 @@
     margin-inline: unset;
     text-align: unset;
     margin-top: unset;
+    font-weight: 20px;
   }
 
   .details__left-btn {
