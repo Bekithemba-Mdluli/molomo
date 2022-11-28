@@ -1,6 +1,6 @@
 .socials {
   background-color: var(--blue);
-  height: 90vh;
+  height: 90%;
   width: 80px;
   display: flex;
   flex-direction: column;

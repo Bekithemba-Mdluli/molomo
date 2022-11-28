@@ -5,9 +5,15 @@
   --secondary: #d3735d;
 }
 
-* {
+html {
+  font-size: 100%;
   box-sizing: border-box;
-  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -18,4 +24,16 @@ body {
 p,
 h1 {
   margin: 0;
+}
+
+.underline {
+  border-bottom: 3px solid var(--secondary);
+}
+
+.button {
+  background-color: var(--blue);
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
 }
