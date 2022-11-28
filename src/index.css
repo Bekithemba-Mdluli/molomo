@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  background-color: #fafbff;
+  /* background-color: #f2f0f0; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 .underline {
-  border-bottom: 3px solid var(--secondary);
+  border-bottom: 6px solid var(--secondary);
 }
 
 .button {
@@ -45,4 +45,10 @@ h1 {
   text-align: center;
   padding-block: 15px;
   /* padding: 10px 30px; */
+}
+
+.ruler {
+  border-bottom: 6px solid var(--secondary);
+  width: 80px;
+  float: left;
 }

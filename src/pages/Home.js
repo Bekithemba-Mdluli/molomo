@@ -1,9 +1,10 @@
 import React from "react";
 import Details from "../components/Details";
 import Header from "../components/Header";
+import Services from "../components/Services";
 import Socials from "../components/Socials";
 
-import bg from "../images/welding.jpg";
+// import bg from "../images/welding.jpg";
 
 import "./Home.css";
 function Home() {
@@ -26,7 +27,8 @@ function Home() {
       </div> */}
       {/* </div> */}
       <Details />
-      <h1>Debug</h1>
+      {/* <h1>Debug</h1> */}
+      <Services />
     </div>
   );
 }
