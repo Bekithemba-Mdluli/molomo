@@ -113,6 +113,12 @@
   .hide {
     display: none;
   }
+
+  .header__nav-img {
+    width: 180px;
+    /* background-color: var(--blue); */
+    padding: 10px;
+  }
 }
 
 .no-scroll {

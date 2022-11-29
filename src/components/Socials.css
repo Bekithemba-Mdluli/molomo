@@ -20,3 +20,7 @@
   background-color: var(--secondary);
   padding: 10px;
 }
+
+.nav-img {
+  width: 36px;
+}

@@ -50,7 +50,7 @@ function Header() {
 
         <img
           onClick={handleNav}
-          className="hide-for-desktop"
+          className="hide-for-desktop nav-img"
           src={menu}
           alt="menu"
         />
