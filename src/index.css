@@ -58,3 +58,9 @@ h1 {
     display: none !important;
   }
 }
+
+@media screen and (min-width: 901px) {
+  .hide-for-desktop {
+    display: none !important;
+  }
+}

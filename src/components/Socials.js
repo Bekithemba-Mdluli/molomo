@@ -15,7 +15,7 @@ const socialM = [
 
 function Socials() {
   return (
-    <div className="socials">
+    <div className="socials hide-for-mobile">
       {socialM.map((e, i) => (
         <Social key={i} image={e.img} name={e.name} />
       ))}

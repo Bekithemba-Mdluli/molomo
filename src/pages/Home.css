@@ -44,3 +44,21 @@
   object-fit: cover;
   filter: brightness(50%);
 } */
+
+@media screen and (max-width: 900px) {
+  .home {
+    height: 60vh;
+  }
+
+  .home__hero {
+    height: 60vh;
+  }
+
+  .home__title {
+    font-size: 38px;
+    margin-right: unset;
+    margin-left: unset;
+    margin-inline: 20%;
+    margin-top: 30%;
+  }
+}
