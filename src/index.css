@@ -52,3 +52,9 @@ h1 {
   width: 80px;
   float: left;
 }
+
+@media screen and (max-width: 900px) {
+  .hide-for-mobile {
+    display: none !important;
+  }
+}

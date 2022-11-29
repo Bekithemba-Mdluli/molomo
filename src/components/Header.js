@@ -12,7 +12,7 @@ function Header() {
           <img src={logo} alt="Molomo logo" />
         </div>
 
-        <ul className="header__nav-list">
+        <ul className="header__nav-list hide-for-mobile">
           <li>
             <a className="active" href="/">
               Home

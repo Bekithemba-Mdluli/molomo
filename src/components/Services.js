@@ -48,8 +48,8 @@ function Services() {
         <span className="ruler"></span>
       </div>
       <div className="services">
-        {services.map((s) => (
-          <Service img={s.img} text={s.text} title={s.title} />
+        {services.map((s, i) => (
+          <Service key={i} img={s.img} text={s.text} title={s.title} />
         ))}
       </div>
     </div>

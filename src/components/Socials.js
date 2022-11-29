@@ -16,8 +16,8 @@ const socialM = [
 function Socials() {
   return (
     <div className="socials">
-      {socialM.map((e) => (
-        <Social image={e.img} name={e.name} />
+      {socialM.map((e, i) => (
+        <Social key={i} image={e.img} name={e.name} />
       ))}
     </div>
   );
