@@ -1,7 +1,14 @@
+import Contact from "./routes/Contact";
+// import { Route, Routes } from "react-router-dom";
+
 function App() {
   return (
-    <div>
-      <h1>Molomo</h1>
+    <div className="App">
+      {/* <Routes>
+        <Route path="/contact" element={<Contact />} />
+      </Routes> */}
+
+      <Contact />
     </div>
   );
 }
