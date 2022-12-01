@@ -50,15 +50,18 @@ function Header() {
 
         <img
           onClick={handleNav}
-          className="hide-for-desktop nav-img"
+          className="nav-img hide-for-desktop "
           src={menu}
           alt="menu"
         />
         <div
-          className={scroll ? "backdrop hide-for-desktop" : "hide"}
+          className={
+            scroll ? "backdrop hide-for-desktop" : "hide hide-for-desktop"
+          }
           onClick={handleNav}
         ></div>
-        <div className={scroll ? "hide-for-desktop" : "hide"}>
+
+        <div className={scroll ? "hide-for-desktop" : "hide hide-for-desktop"}>
           <ul className="header__nav-list hide-for-desktop">
             <li>
               <a className="active" href="/">
