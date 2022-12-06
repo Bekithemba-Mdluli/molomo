@@ -3,12 +3,13 @@
   top: 0;
   height: 100vh;
   z-index: -1;
-  width: 50px;
+  width: 80px;
   background-color: var(--blue);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 60px;
+  z-index: 1;
 }
 
 .social {
