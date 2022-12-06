@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --blue: #1c6eda;
+  --secondary: #d3735d;
+}
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -15,7 +22,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-p,
+/* p,
 h1 {
   margin: 0;
+} */
+@media screen and (max-width: 900px) {
+  .hide-for-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .hide-for-desktop {
+    display: none !important;
+  }
 }
