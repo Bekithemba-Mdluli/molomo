@@ -23,7 +23,7 @@ function Header() {
         <img src={logo} alt="Molomo Logo" />
       </div>
 
-      <div className="header__menu" onClick={handleNav}>
+      <div className="header__menu hide-for-desktop" onClick={handleNav}>
         <img src={menu} alt="Hamburger menu" />
       </div>
 
@@ -45,10 +45,31 @@ function Header() {
         </li>
         <li>
           <a href="/">
-            <span>+27 23 456 7890</span>
+            <span className="number">+27 23 456 7890</span>
           </a>
         </li>
       </ul>
+
+      <ul className={"header__itemsD hide-for-mobile"}>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/">About</a>
+        </li>
+        <li>
+          <a href="/">Products</a>
+        </li>
+        <li>
+          <a href="/">Contact</a>
+        </li>
+        <li>
+          <a href="/">
+            <span className="number">+27 23 456 7890</span>
+          </a>
+        </li>
+      </ul>
+
       <div
         className="backdrop"
         style={{ display: isOpen ? "block" : "none" }}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  background-color: green;
   padding-right: 10px;
   position: relative;
   height: 70px;
@@ -12,6 +12,9 @@
 .header__logo {
   width: 200px;
   background-color: var(--blue);
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .header__logo img {
@@ -55,7 +58,7 @@
   padding-left: 10px;
   margin-bottom: 30px;
 }
-.header__items span {
+.number {
   background-color: var(--blue);
   color: #fff;
   padding: 10px;
@@ -82,4 +85,27 @@
   left: 0;
   transition: 1s;
   z-index: 100;
+}
+
+/* Desktop */
+.header__itemsD {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.header__itemsD a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500px;
+}
+
+@media screen and (min-width: 641px) {
+  .header__logo {
+    /* padding: 200px; */
+  }
+
+  .header {
+    height: 100px;
+  }
 }

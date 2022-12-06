@@ -26,13 +26,13 @@ body {
 h1 {
   margin: 0;
 } */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 640px) {
   .hide-for-mobile {
     display: none !important;
   }
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 641px) {
   .hide-for-desktop {
     display: none !important;
   }
