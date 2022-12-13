@@ -60,25 +60,29 @@
 .services .service-items{
    flex:0 0 100%;
 	max-width: 100%;
-   margin-right: 0;
 }
 
 .services .service-items .item{
    padding-bottom: 5%;
+
+   gap: 15%;
+   display: flex;
+   justify-content: space-around;
+
 }
 
 .services .service-items .productDescription{
    display: flex;
-   transform: translate(10%, -220%);
+   transform: translate(8%, -280%);
    -ms-transform: translate(10%, -160%);
    color: white;
    /* padding: 5px 15px; */
-   font-size: 25px;
+   font-size: 18px;
 }
 
 .services .service-items .btn{
    display: flex;
-   transform: translate(20%, -325%);
+   transform: translate(15%, -325%);
    -ms-transform: translate(15%, -160%);
    background-color: #000;
    color: white;
@@ -90,12 +94,11 @@
 }
 
 .services .service-items .item-inner{
-   width: 350px;
-   height: 300px;
+   width: 200px;
+   height: 250px;
    box-sizing: border-box;
-
-   padding-right: 50%;
    object-fit: fill;
+   
 }
 
 .services .service-items .readMoreConent{
@@ -111,8 +114,6 @@
    text-align: start;
    display: none;
 }
-
-
 
 /* Responsiveness */
 
