@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/molomo/static/css/main.addb8169.css",
+    "main.js": "/molomo/static/js/main.3c552f5b.js",
+    "static/js/787.b6ec5126.chunk.js": "/molomo/static/js/787.b6ec5126.chunk.js",
+    "static/media/pic2.jpg": "/molomo/static/media/pic2.8e73ff133822580aadec.jpg",
+    "static/media/pic1.jpg": "/molomo/static/media/pic1.722c9fd5d8d9485eecea.jpg",
+    "static/media/construction.jpg": "/molomo/static/media/construction.a00624ddb56b08281583.jpg",
+    "static/media/pic.jpg": "/molomo/static/media/pic.c453c11edb86705d44f4.jpg",
+    "static/media/pic3.jpg": "/molomo/static/media/pic3.3366bc57e0b5313353d6.jpg",
+    "static/media/logo.png": "/molomo/static/media/logo.a4e137ddaa38d1cafa8a.png",
+    "static/media/icon-welding.png": "/molomo/static/media/icon-welding.9a50afc7ea650b32d3ff.png",
+    "static/media/icon-warehouse.png": "/molomo/static/media/icon-warehouse.2af708951fdb33b33990.png",
+    "index.html": "/molomo/index.html",
+    "main.addb8169.css.map": "/molomo/static/css/main.addb8169.css.map",
+    "main.3c552f5b.js.map": "/molomo/static/js/main.3c552f5b.js.map",
+    "787.b6ec5126.chunk.js.map": "/molomo/static/js/787.b6ec5126.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.addb8169.css",
+    "static/js/main.3c552f5b.js"
+  ]
+}
