@@ -1,0 +1,16 @@
+.about__intro {
+  /* background-color: red;  */
+
+  background-image: url(../images/pic.jpg);
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__intro h1 {
+  color: #fff;
+  margin-inline: 10%;
+  margin-top: 80px;
+  font-size: 48px;
+}

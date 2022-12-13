@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import logo from "../images/logo.png";
 import menu from "../images/icons/icon-menu.png";
@@ -26,42 +27,43 @@ function Header() {
       <div className="header__menu hide-for-desktop" onClick={handleNav}>
         <img src={menu} alt="Hamburger menu" />
       </div>
-
-      <ul
-        className={"header__items hide-for-desktop"}
-        style={{ display: isOpen ? "block" : "none" }}
-      >
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">About</a>
-        </li>
-        <li>
-          <a href="/">Products</a>
-        </li>
-        <li>
-          <a href="/">Contact</a>
-        </li>
-        <li>
-          <a href="/">
-            <span className="number">+27 23 456 7890</span>
-          </a>
-        </li>
-      </ul>
+      <Router>
+        <ul
+          className={"header__items hide-for-desktop"}
+          style={{ display: isOpen ? "block" : "none" }}
+        >
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/products">Products</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <a href="/">
+              <span className="number">+27 23 456 7890</span>
+            </a>
+          </li>
+        </ul>
+      </Router>
 
       <ul className={"header__itemsD hide-for-mobile"}>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="/">Products</a>
+          <Link to="/products">Products</Link>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
           <a href="/">
@@ -76,6 +78,7 @@ function Header() {
         onClick={handleNav}
       ></div>
     </header>
+    // </Router>
   );
 }
 

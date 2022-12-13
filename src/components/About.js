@@ -4,6 +4,7 @@ import pic3 from "../images/pic3.jpg";
 import "./About.css";
 // import Footer from "./Footer2";
 import Header from "./Header";
+import Intro from "./Intro";
 
 function About() {
   // const myStyle={
@@ -13,10 +14,11 @@ function About() {
   //}
   return (
     <div className="about">
-      <div className="about__intro">
+      {/* <div className="about__intro">
         <Header />
         <h1>About</h1>
-      </div>
+      </div> */}
+      <Intro text="About" />
 
       <div className="about__content">
         <div className="about__content-img">
