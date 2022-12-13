@@ -1,39 +1,20 @@
 import Home from "./pages/Home";
+import About from "./components/About";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Home />
-      {/* =======
-import React from 'react';
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+      </Switch>
+    </Router>
+    // <div>
+    //   <Home />
 
-import About from './components/About.js';
-
-//Used Bheki's code below on Header.js ;)
-import Header from './components/Header.js';
-
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <About />
->>>>>>> gift*/}
-      {/* =======
-// import Contact from "./routes/Contact";
-import Products from "./routes/Products";
-// import { Route, Routes } from "react-router-dom";
-
-
-function App() {
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Products />
-      <Contact />
->>>>>>> isaac  */}
-    </div>
+    // </div>
   );
 }
 

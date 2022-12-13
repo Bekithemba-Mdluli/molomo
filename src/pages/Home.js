@@ -5,8 +5,14 @@ import Panel from "../components/Panel";
 import Services from "../components/Services";
 import Slider from "../components/Slider";
 
+import placehoder from "../images/placeholder.png";
+
 import "./Home.css";
 function Home() {
+  const text =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.";
+  const heading = "What They are about and mission I Guess";
+  const image = placehoder;
   return (
     <div className="home">
       <div className="hero">
@@ -17,7 +23,7 @@ function Home() {
         </div>
         <Slider />
       </div>
-      <Details />
+      <Details button={true} text={text} heading={heading} image={image} />
       <Services />
     </div>
   );

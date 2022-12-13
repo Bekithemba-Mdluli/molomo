@@ -1,382 +1,43 @@
-.about{
-    margin: auto;
-    padding: auto;
-}
-.image{
-    background-image: url(../images/pic.jpg);
-    height: 320px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.about-us{
-    position: absolute;
-    left: 190px;
-    top: 15rem;
-    color: #fff;
-    font-weight: bold;
-    font-size: 50px;
-}
-.about_img img{
-    position: inherit;
-    height: 350px;
-    width: 100%;
-}
-.heading{
-    display: flex;
-    padding-left: 10rem;
-    padding-top: 60px;
-}
-.heading h1{
-    display: flex;
-    padding-top: 420px;
-}
-.content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.content p{
-    display: flex;
-    padding-left: 120px;
-    padding-right: 50%;
-}
-.img2 img{
-    position: relative;
-    left: 45rem;
-    bottom: 200px;
-    width: 490px;
-    height: 329px;
-}
-.heading2{
-    display: flex;
-    margin-left: 53rem;
-}
-.content2 {
-    display: flex;
-    padding-left: 50%;
-    margin-right: 40px;
-}
-.content2 p{
-    display: flex;
-    padding-left: 120px;
-    padding-right: 120px;
-}
-.img3 img{
-    position: relative;
-    left: 4rem;
-    bottom: 15rem;
-    width: 490px;
-    height: 329px;
+/* .about {
+  margin-inline: 10%;
+} */
+.about__intro {
+  /* background-color: red;  */
+
+  background-image: url(../images/pic.jpg);
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media screen and (max-width: 1860px) {
-    .about{
-        margin: auto;
-        padding: auto;
-    }
-    .image{
-        width: 100%;
-        min-height: 100%;
-    }
-    .about-us{
-        margin-left: 20px;
-    }
-    .img2 img{
-        position: relative;
-        left: 50%;
-        width: 40%;
-        height: 45vh;
-    }
-    .heading {
-        margin-top: 120px;
-    }
-    .img3 img{
-        width: 45%;
-        height: 40vh;
-    }
-    .heading2 {
-        margin-left: 70%;
-    }
-    .content p {
-        font-size: 20px;
-    }
-    .content2 p{
-        font-size: 20px;
-    }
-}
-/* Larger screen */
-@media screen and (max-width: 1280px) {
-    .about{
-        overflow: hidden;
-    }
-    .image{
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 120px;
-    }
-    .about-us{
-        margin-left: 20px;
-    }
-    .img2 img{
-        position: relative;
-        left: 55%;
-        
-    }
-    .heading2{
-        position: relative;
-        right: 120px;
-    }
-}
-/* Desktop*/
-@media screen and (max-width: 1080px) {
-    .about{
-        margin: auto;
-        padding: auto;
-    }
-    .image{
-        height: 310px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .about-us{
-        position: absolute;
-        left:200px;
-        top: 200px;
-    }
-    .about_img img{
-        position: absolute;
-        right: 120px;
-    }
-    .heading{
-        position: relative;
-        top: 50px;
-    }
-    .img2 img{
-        position: relative;
-        left: 55%;
-        bottom: 180px;
-        height: 300px;
-        width: 350px;
-    }
-    .content p{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 90px;
-        padding-left: 120px;
-    }
-    .heading2{
-        display: flex;
-        padding-right: 120px;
-        margin-left: 60%;
-    }
-    .img3 img{
-        position: relative;
-        left: 10%;
-        top: 50%;
-        margin-left: 40px;
-        height: 320px;
-        width: 450px;
-    }
-    .content2 p{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 90px;
-        margin-right: 10px;
-        padding-left: 120px;        
-    }
+.about__intro h1 {
+  color: #fff;
+  margin-inline: 10%;
+  margin-top: 80px;
+  font-size: 48px;
 }
 
-@media only screen and (max-width: 995px) {
-    .about{
-        margin: auto;
-        padding: auto;
-        overflow: hidden;
-    }
-    .image{
-        height: 310px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .about-us{
-        position: absolute;
-        left: 170px;
-        top: 200px;
-    }
-    .heading{
-        position: relative;
-        top: 50px;
-        right: 30px;
-    }
-    .content p{
-        padding-left: 120px;
-        margin-right: 80px;
-    }
-    .img2 img{
-        position: relative;
-        left: 49%;
-        bottom: 20rem;
-        height: 80%;
-        width: 50%;
-    }
-    .heading2{
-        position: relative;
-        top: 180px;
-        left: 5%;
-    }
-    .img3 img{
-        position: relative;
-        right: 120px;
-        left: 20px;
-        width: 50%;
-        height: 30vh;
-    }
-    .content2 p{
-        position: relative;
-        top: 120px;
-        left: 110px;
-        bottom: 30px;
-        padding-left: 20px;      
-    }
-}
-@media only screen and (max-width: 899px) {
-    .image{
-        max-width: 100%; 
-    }
-    .heading2{
-        position: relative;
-        top: 25;
-        left: 20px;
-        padding-right: 20px;
-    }
-    .img3 img{
-        position: relative;
-        top: 12px;
-        left: 10px;
-        height: 250px;
-    }
-    .content2 p{
-        position: relative;
-        left: 60px;
-        bottom: 30px;
-        padding-left: 5px;
-        padding-right: 20px;
-    }
+.about__content {
+  display: flex;
+  margin-inline: 10%;
 }
 
-@media only screen and (max-width: 699px) {
-    .about{
-        margin: auto;
-        padding: auto;
-    }
-    .image{
-        width: 100%;
-        background-position: center;
-        background-size: cover;
-    }
-    .about-us{
-        position: absolute;
-        top: 8%;
-        left: 12%;
-        font-size: 50px;
-    }
-    .heading{
-        position: relative;
-        top: 40%;
-        right: 40px;
-        font-size: 35px;
-    }
-    .img2 img{
-        position: relative;
-        left: 2px;
-        top: -17rem;
-        width: 100%;
-        height: 32vh;
-    } 
-    .content p{
-       position: relative;
-       top: 290px;
-       left: 20px;
-       padding-right: 120px;
-    }
-    .heading2{
-        position: relative;
-        top: 5px;
-        left: -14rem;
-    }
-    .img3 img{
-        position: relative;
-        left: -28px;
-        top: -28rem;
-        width: 100%;
-        height: 32vh;
-    }
-    .content2 p{
-        position: relative;
-        top: 280px;
-        left: -200px;
-    }
+.about__content-img {
+  width: 50%;
 }
 
-@media only screen and (max-width: 599px) {
-    .about{
-        margin: auto;
-        padding: auto;
-    }
-    .image{
-        width: 100%;
-    }
-    .about-us{
-        position: relative;
-        bottom: 220px;
-    }
-    .heading{
-        position: relative;
-        top: -80px;
-        left: -50px;
-    }
-    .img2 img{
-        position: relative;
-        top: -25rem;
-        left: 2px;
-        width: 100%;
-        height: 400px;
-    }
-    .content p{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .heading2{
-        position: relative;
-        top: 350px;
-        text-align: center;
-    }
-    .img3 img{
-        position: relative;
-        top: -40rem;
-        left: -8%;
-        width: 100%;
-        height: 400px;
-    }  
+.about__content-text {
+  width: 50%;
 }
-/*Can't seem to make changes for small device here...*/
-@media screen only screen and (max-width: 499px) {
-    .about{
-        margin: auto;
-        padding: auto;
-    }
-    .about-us {
-        color: red;
-    }
-    .image{
-        width: 100%;
-    }
-    .img2 img{
-        height: 420px;
-    }
+
+.about__content-img img {
+  width: 100%;
+}
+
+@media (min-width: 801px) {
+  .invert {
+    flex-direction: row-reverse;
+    /* height: 300px; */
+  }
 }

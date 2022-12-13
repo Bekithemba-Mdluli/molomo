@@ -5,7 +5,7 @@ import facebook from "./images/icons/icon-facebook.png";
 import instagram from "./images/icons/icon-instagram.png";
 import linkedIn from "./images/icons/icon-linkedin.png";
 
-const Footer = () => {
+const Footer2 = () => {
   return (
     <div className="footer">
       {/* <div className="bottom"> */}
@@ -34,4 +34,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer2;
