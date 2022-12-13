@@ -1,6 +1,6 @@
 import React from "react";
 
-import placeholder from "../images/placeholder.png";
+import placeholder from "../images/placeholder.webp";
 
 import "./Details.css";
 

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-import logo from "../images/logo.png";
-import menu from "../images/icons/icon-menu.png";
+import logo from "../images/logo.webp";
+import menu from "../images/icons/icon-menu.webp";
 
 import "./Header.css";
 

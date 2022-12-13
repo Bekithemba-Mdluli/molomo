@@ -3,9 +3,9 @@ import Social from "./Social";
 
 import "./Panel.css";
 
-import instagram from "../images/icons/icon-instagram.png";
-import linkedIn from "../images/icons/icon-linkedin.png";
-import facebook from "../images/icons/icon-facebook.png";
+import instagram from "../images/icons/icon-instagram.webp";
+import linkedIn from "../images/icons/icon-linkedin.webp";
+import facebook from "../images/icons/icon-facebook.webp";
 
 const socialM = [
   { img: instagram, name: "Instagram" },

@@ -5,7 +5,7 @@ import Panel from "../components/Panel";
 import Services from "../components/Services";
 import Slider from "../components/Slider";
 
-import placehoder from "../images/placeholder.png";
+import placehoder from "../images/placeholder.webp";
 
 import "./Home.css";
 function Home() {

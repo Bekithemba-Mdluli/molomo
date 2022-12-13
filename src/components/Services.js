@@ -1,7 +1,7 @@
 import React from "react";
 
-import welding from "../images/icons/icon-welding.png";
-import storage from "../images/icons/icon-warehouse.png";
+import welding from "../images/icons/icon-welding.webp";
+import storage from "../images/icons/icon-warehouse.webp";
 
 import Service from "./Service";
 
