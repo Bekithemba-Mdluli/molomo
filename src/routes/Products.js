@@ -1,5 +1,5 @@
 import ProductTabs from "../components/ProductTabs";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import Footer2 from "../components/Footer2";
 import Intro from "../components/Intro";
 

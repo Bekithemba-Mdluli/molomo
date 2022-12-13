@@ -1,5 +1,5 @@
 import "./FooterStyles.css";
-import socialIcons from "./images/icons/socialIcons.png";
+// import socialIcons from "./images/icons/socialIcons.png";
 
 import facebook from "./images/icons/icon-facebook.png";
 import instagram from "./images/icons/icon-instagram.png";
@@ -10,7 +10,7 @@ const Footer2 = () => {
     <div className="footer">
       {/* <div className="bottom"> */}
       <div>
-        <a>Copytight &copy; website owner all rights reserved</a>
+        <a href="/">Copytight &copy; website owner all rights reserved</a>
         <p className="creators">Created by Isaac Gift and Themba</p>
       </div>
       <div>

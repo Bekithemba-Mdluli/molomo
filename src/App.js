@@ -15,6 +15,7 @@ function App() {
         <Route path="/contact" component={Contact} />
       </Switch>
     </Router>
+
     // <div>
     //   <Home />
 
