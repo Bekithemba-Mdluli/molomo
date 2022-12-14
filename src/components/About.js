@@ -1,6 +1,6 @@
 import React from "react";
 // import pic2 from "../images/pic2.jpg";
-import pic3 from "../images/placeholder.webp";
+import pic3 from "../images/pic3.jpg";
 import "./About.css";
 // import Footer from "./Footer2";
 // import Header from "./Header";
@@ -22,7 +22,8 @@ function About() {
 
       <div className="about__content">
         <div className="about__content-img">
-          <img src={pic3} alt="construction2"></img>
+          {/* added an id... was struggling on adjusting images on small device */}
+          <img src={pic3} id="pic1" alt="construction2"></img>
         </div>
 
         <div className="about__content-text">
@@ -42,7 +43,7 @@ function About() {
 
       <div className="about__content invert">
         <div className="about__content-img">
-          <img src={pic3} alt="construction2"></img>
+          <img src={pic3} id="pic2" alt="construction2"></img>
         </div>
 
         <div className="about__content-text">
