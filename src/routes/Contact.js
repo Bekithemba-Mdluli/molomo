@@ -1,7 +1,7 @@
 // import AboutImg from "../assets/2.jpg";
 import ContactForm from "../components/ContactForm";
 // import Footer from "../components/Footer";
-import Footer2 from "../components/Footer2";
+// import Footer2 from "../components/Footer2";
 import Intro from "../components/Intro";
 
 function Contact() {
@@ -10,7 +10,7 @@ function Contact() {
       <Intro text="Contact" />
       <ContactForm />
       {/* <Footer /> */}
-      <Footer2 />
+      {/* <Footer2 /> */}
     </>
   );
 }

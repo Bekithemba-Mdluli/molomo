@@ -1,47 +1,35 @@
+// import React, { useState } from "react";
+
+// import "./ProductTabs.css";
+// import Modal from "./Modal";
+import Product from "./Product";
+
 import "./ProductTabs.css";
-import pic1 from './images/pic1.jpg';
-import pic2 from './images/pic2.jpg';
 
-  const ProductTabs = () => {
-    return (
-      <>
-        <section class="services">
-          <div class="container">
-              <div class="row">
-                  <div class="section-title">
-                    <h1> Products we offer </h1>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="service-items">
-                    <div class="row">
+import placeholder from "../images/product.webp";
 
-                    <div class="item">
-                        <div className="item-inner">
-                          <img className="item-inner" src={pic1} alt="img" />
-                          <h3 className="productDescription">Product 1</h3>
-                          {/* onClick={()=>{ alert('alert'); }} */}
-                          <button className="btn" type="button">Read more?</button>                              
-                          <div class="read-more-cont">
-                              {/* href="url" */}                             
-                                <img className="readMoreConent" src={pic1} alt="img" />
-                                <img className="readMoreConent" src={pic2} alt="img" />
-                                <span className="close-button"> &times;</span>
-                                <p className="readMoreConent"> 
-                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.
-                                </p>   
-                          </div>
-                        </div>
-                    </div>
+const ProductTabs = () => {
+  // const [show, setShow] = useState(false);
+  const products = [
+    { id: 1, name: "Product 1", image: placeholder },
+    { id: 2, name: "Product 2", image: placeholder },
+    { id: 3, name: "Product 3", image: placeholder },
+    { id: 4, name: "Product 4", image: placeholder },
+    { id: 5, name: "Product 5", image: placeholder },
+    { id: 6, name: "Product 6", image: placeholder },
+  ];
 
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </section>
-      </>
-    );
-  };
-  
-  export default ProductTabs;
-  
+  // const foo = () => {
+  //   setShow(!show);
+  // };
+
+  return (
+    <div className="products">
+      {products.map((p, i) => (
+        <Product Key={i} name={p.name} image={p.image} />
+      ))}
+    </div>
+  );
+};
+
+export default ProductTabs;

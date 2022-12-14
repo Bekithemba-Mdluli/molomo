@@ -1,6 +1,6 @@
 import ProductTabs from "../components/ProductTabs";
 // import Footer from "../components/Footer";
-import Footer2 from "../components/Footer2";
+// import Footer2 from "../components/Footer2";
 import Intro from "../components/Intro";
 
 function Products() {
@@ -8,7 +8,7 @@ function Products() {
     <>
       <Intro text="Products" />
       <ProductTabs />
-      <Footer2 />
+      {/* <Footer2 /> */}
     </>
   );
 }
