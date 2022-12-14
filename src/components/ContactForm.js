@@ -2,8 +2,8 @@ import "../components/ContactFormStyles.css";
 
 function ContactForm() {
   return (
-    <section class="contact">
-      <div class="container">
+    <section className="contact">
+      <div className="container">
         <div className="pageName">
           <h2> Get in touch </h2>
           <span className="ruler"></span>

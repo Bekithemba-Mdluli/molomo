@@ -1,6 +1,6 @@
 import React from "react";
 // import pic2 from "../images/pic2.jpg";
-import pic3 from "../images/pic3.jpg";
+import pic3 from "../images/placeholder.webp";
 import "./About.css";
 // import Footer from "./Footer2";
 // import Header from "./Header";

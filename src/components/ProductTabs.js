@@ -26,7 +26,7 @@ const ProductTabs = () => {
   return (
     <div className="products">
       {products.map((p, i) => (
-        <Product Key={i} name={p.name} image={p.image} />
+        <Product key={i} name={p.name} image={p.image} />
       ))}
     </div>
   );

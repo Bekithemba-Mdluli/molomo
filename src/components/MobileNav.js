@@ -18,7 +18,7 @@ function MobileNav() {
         <Link to="/contact">Contact</Link>
       </li>
       <li>
-        <a href="/">
+        <a href="tel:+27234567890">
           <span className="number">+27 23 456 7890</span>
         </a>
       </li>
