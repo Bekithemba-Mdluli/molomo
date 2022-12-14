@@ -8,7 +8,10 @@ function Contact() {
   return (
     <>
       <Intro text="Contact" />
-      <ContactForm />
+      <div className="container">
+        <ContactForm />
+      </div>
+
       {/* <Footer /> */}
       {/* <Footer2 /> */}
     </>

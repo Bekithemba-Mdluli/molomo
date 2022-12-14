@@ -23,8 +23,10 @@ function Home() {
         </div>
         <Slider />
       </div>
-      <Details button={true} text={text} heading={heading} image={image} />
-      <Services />
+      <div className="container">
+        <Details button={true} text={text} heading={heading} image={image} />
+        <Services />
+      </div>
     </div>
   );
 }

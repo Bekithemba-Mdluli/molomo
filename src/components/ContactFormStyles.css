@@ -19,7 +19,7 @@
   flex-direction: column; */
   margin-bottom: 30px;
   margin-top: 40px;
-  margin-inline: 30px;
+  /* margin-inline: 30px; */
 }
 
 .location {
@@ -74,6 +74,10 @@
   font-family: "Roboto";
 }
 
+textarea {
+  resize: none;
+}
+
 .btn-container {
   display: flex;
   justify-content: center;
@@ -93,8 +97,8 @@
   /* text-align: center; */
   justify-content: center;
 }
-
-@media (min-width: 641px) {
+/* 641 */
+@media (min-width: 821px) {
   .form-container {
     flex-direction: row;
   }

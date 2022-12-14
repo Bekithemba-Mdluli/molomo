@@ -7,7 +7,10 @@ function Products() {
   return (
     <>
       <Intro text="Products" />
-      <ProductTabs />
+      <div className="container">
+        <ProductTabs />
+      </div>
+
       {/* <Footer2 /> */}
     </>
   );

@@ -5,6 +5,7 @@ import logo from "../images/logo.webp";
 import menu from "../images/icons/icon-menu.webp";
 
 import "./Header.css";
+import MobileNav from "./MobileNav";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,26 +53,7 @@ function Header() {
         </ul>
       </Router>
 
-      <ul className={"header__itemsD hide-for-mobile"}>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/products">Products</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-        <li>
-          <a href="/">
-            <span className="number">+27 23 456 7890</span>
-          </a>
-        </li>
-      </ul>
-
+      <MobileNav />
       <div
         className="backdrop"
         style={{ display: isOpen ? "block" : "none" }}

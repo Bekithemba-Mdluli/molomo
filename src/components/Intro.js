@@ -7,7 +7,9 @@ function Intro({ text }) {
   return (
     <div className="about__intro">
       <Header />
-      <h1>{text}</h1>
+      <div className="container">
+        <h1>{text}</h1>
+      </div>
     </div>
   );
 }
