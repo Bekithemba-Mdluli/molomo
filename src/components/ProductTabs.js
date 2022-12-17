@@ -3,6 +3,7 @@
 // import "./ProductTabs.css";
 // import Modal from "./Modal";
 import Product from "./Product";
+// import Modal from "./Modal";
 
 import "./ProductTabs.css";
 
@@ -19,15 +20,13 @@ const ProductTabs = () => {
     { id: 6, name: "Product 6", image: placeholder },
   ];
 
-  // const foo = () => {
-  //   setShow(!show);
-  // };
-
   return (
     <div className="products">
-      {products.map((p, i) => (
-        <Product key={i} name={p.name} image={p.image} />
+      {products.map((p) => (
+        <Product key={p.id} name={p.name} image={p.image} />
       ))}
+
+      {/* <Modal /> */}
     </div>
   );
 };

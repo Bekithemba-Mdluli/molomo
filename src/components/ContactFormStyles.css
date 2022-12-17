@@ -10,6 +10,7 @@
 .pageName h2 {
   margin: 0;
   margin-bottom: 10px;
+  font-size: 58px;
 }
 
 .contact {
@@ -34,6 +35,9 @@
 .location a {
   color: var(--blue);
   font-weight: 400;
+  /* background-color: yellow; */
+  text-decoration: none;
+  /* width: 90%; */
 }
 
 .contactForm {

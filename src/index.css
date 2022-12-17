@@ -40,7 +40,7 @@ h1 {
 
 .ruler {
   border-bottom: 6px solid var(--secondary);
-  width: 80px;
+  width: 100px;
   float: left;
 }
 

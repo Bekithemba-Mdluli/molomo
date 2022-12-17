@@ -104,6 +104,8 @@
 @media screen and (min-width: 641px) {
   .header__logo {
     /* padding: 200px; */
+    width: 300px;
+    padding: 20px;
   }
 
   .header {
