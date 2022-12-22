@@ -3,14 +3,14 @@ import React from "react";
 function Service({ img, title, text }) {
   return (
     <div className="service">
-      <div>
+      <div className="service__img">
         <img src={img} alt="Building" />
       </div>
       <h3>{title}</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>{text}</p>
 
       <a className="button" href="/">
-        See Services
+        read more
       </a>
     </div>
   );

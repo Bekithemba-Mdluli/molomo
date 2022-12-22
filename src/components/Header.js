@@ -9,6 +9,7 @@ import MobileNav from "./MobileNav";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  // TODO FIX NO SCROLL BUG
 
   const handleNav = () => {
     setIsOpen(!isOpen);

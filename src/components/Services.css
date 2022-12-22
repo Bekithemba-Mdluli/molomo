@@ -26,21 +26,32 @@
   gap: 80px;
   /*width: 100%; */
   /* width: 100%; */
+  /* background-color: #000; */
+  margin-top: 50px;
 }
 
 .service {
   /* width: 350px; */
   /* height: 340px; */
   justify-items: center;
+  /* background-color: #000; */
+  text-align: center;
+  justify-content: space-between;
+  /* align-items: center; */
   /* background-color: green; */
   /* margin-left: auto;
   margin-right: auto; */
   /* background-color: #fff; */
   /* padding-bottom: 20px; */
+  /* background-color: #fcfcfc; */
+  padding-block: 20px;
+  background-color: lightblue;
 }
 
 .service img {
-  width: 100px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
 .service h3 {
@@ -50,6 +61,7 @@
 
 .service p {
   margin-top: 10px;
+  /* text-align: center; */
 }
 
 .service a {
@@ -59,8 +71,9 @@
   width: 100px;
   text-align: start;
   color: var(--blue);
-  background-color: white;
+  background-color: lightblue;
   transition: 0.3s;
+  text-align: center;
 }
 
 .service a:hover {
@@ -72,41 +85,35 @@
     font-size: 48px;
   }
 
-  .services {
-    /* flex-direction: row;
-    flex-wrap: wrap; */
-    /* display: unset;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); */
-    /* display: flex; */
+  /* .services {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 80px;
-    /* gap: 100px; */
-    /* margin-left: auto;
-        margin-right: auto; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* justify-items: center; */
-    /* gap: 10px;
-        width: 100%; */
-    /* gap: 1%; */
+  } */
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .service {
-    /* width: 32.6%; */
-    /* margin-left: auto;
-        margin-right: auto; */
-    /* width: 100%; */
     cursor: pointer;
-    /* margin-inline: 5%; */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  /* .service p {
+    margin-right: 18%;
+  } */
+
+  /* .service {
+    cursor: pointer;
     padding-left: 10px;
     border-radius: 5px;
 
     flex-grow: 1;
     width: 26%;
-    /* height: 100px; */
-  }
+  } */
 
   /* .service img {
     width: 99px;
@@ -116,9 +123,9 @@
     margin-top: 5px;
   } */
 
-  .service p {
+  /* .service p {
     margin-right: 18%;
-  }
+  } */
 
   .service a {
     margin-top: 10px;
