@@ -1,6 +1,8 @@
 import React from "react";
 
-function Service({ img, title, text }) {
+import { Link } from "react-router-dom";
+
+function Service({ img, title, text, url }) {
   return (
     <div className="service">
       <div className="service__img">
@@ -9,9 +11,9 @@ function Service({ img, title, text }) {
       <h3>{title}</h3>
       <p>{text}</p>
 
-      <a className="button" href="/">
+      <Link to={url} className="button">
         read more
-      </a>
+      </Link>
     </div>
   );
 }

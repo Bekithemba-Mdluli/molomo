@@ -5,6 +5,7 @@ import Contact from "./routes/Contact";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./error-page";
+import Racking from "./pages/Racking";
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +24,10 @@ function App() {
     {
       path: "/contact",
       element: <Contact />,
+    },
+    {
+      path: "/products/racking",
+      element: <Racking />,
     },
     {
       path: "/",

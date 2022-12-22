@@ -1,0 +1,50 @@
+.racking {
+  margin-top: 30px;
+}
+
+.racking h2 {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.racking__img {
+  margin-top: 40px;
+}
+
+.racking__img img {
+  width: 100%;
+}
+
+.racking h4 {
+  margin-top: 40px;
+}
+
+.racking p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* .racking__content-heading {
+  font-size: 18px !important;
+} */
+
+@media screen and (min-width: 641px) {
+  .racking h2 {
+    font-size: 58px;
+    width: 400px;
+  }
+
+  .racking h4 {
+    font-size: 20px;
+  }
+
+  .racking p {
+    font-size: 16px;
+  }
+
+  .racking__img img {
+    height: 412px;
+  }
+}
