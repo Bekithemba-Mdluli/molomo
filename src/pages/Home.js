@@ -9,6 +9,7 @@ import placehoder from "../images/placeholder.webp";
 
 import "./Home.css";
 function Home() {
+  document.body.classList.remove("no-scroll");
   const text =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.";
   const heading = "What They are about and mission I Guess";

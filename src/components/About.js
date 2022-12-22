@@ -7,6 +7,7 @@ import "./About.css";
 import Intro from "./Intro";
 
 function About() {
+  document.body.classList.remove("no-scroll");
   // const myStyle={
   // backgroundImage: "url(./images/pic.jpg)",
   // width: "10%",

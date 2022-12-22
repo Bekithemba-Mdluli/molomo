@@ -10,6 +10,7 @@ import rackingIMG from "../images/racking.webp";
 import "./Products.css";
 
 function Racking() {
+  document.body.classList.remove("no-scroll");
   const racking = {
     title: "Racking",
   };
@@ -21,7 +22,7 @@ function Racking() {
       <div className="container">
         <div className="racking">
           <div className="racking__img">
-            <img src={rackingIMG} alt="Racking image" />
+            <img src={rackingIMG} alt="Racking" />
           </div>
           <div>
             <h2>{racking.title}</h2>
