@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import logo from "../images/logo.webp";
 import menu from "../images/icons/icon-menu.webp";
@@ -9,21 +9,13 @@ import MobileNav from "./MobileNav";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  // const [isActive, setIsActive] = useState(true);
-  // TODO FIX NO SCROLL BUG
 
   const handleNav = () => {
     setIsOpen(!isOpen);
-    // console.log(isOpen);
 
     isOpen
       ? document.body.classList.remove("no-scroll")
       : document.body.classList.add("no-scroll");
-  };
-
-  let activeStyle = {
-    textDecoration: "underline",
-    // backgroundColor: "green",
   };
 
   return (
@@ -35,7 +27,6 @@ function Header() {
       <div className="header__menu hide-for-desktop" onClick={handleNav}>
         <img src={menu} alt="Hamburger menu" />
       </div>
-      {/* <Router> */}
       <ul
         className={"header__items hide-for-desktop"}
         style={{ display: isOpen ? "block" : "none" }}
@@ -79,7 +70,6 @@ function Header() {
           </a>
         </li>
       </ul>
-      {/* </Router> */}
 
       <MobileNav />
       <div
@@ -88,7 +78,6 @@ function Header() {
         onClick={handleNav}
       ></div>
     </header>
-    // </Router>
   );
 }
 

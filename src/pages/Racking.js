@@ -1,11 +1,7 @@
 import React from "react";
 import Intro from "../components/Intro";
-// import ProductInfo from "../components/ProductInfo";
 
-// import storage from "../images/locker.webp";
-// import mezzanine from "../images/mezzanine.webp";
 import rackingIMG from "../images/racking.webp";
-// import shelving from "../images/shelving.webp";
 
 import "./Products.css";
 

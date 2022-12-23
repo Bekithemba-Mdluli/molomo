@@ -16,25 +16,14 @@
   cursor: pointer;
   transition: 0.5s;
   border-radius: 5px;
-  /* position: absolute; */
-  /* bottom: 50%;
-  margin-top: 20px; */
   width: 24px;
   height: 24px;
   margin-inline: auto;
   margin-block: 10px;
-  /* gap: 100px; */
 }
-
-/* .social {
-  width: 24px;
-  height: 24px;
-  align-items: center;
-} */
 
 .social:hover {
   background-color: var(--secondary);
-  /* margin: 10px; */
   width: 30px;
   height: 30px;
 }

@@ -1,15 +1,9 @@
 .products {
-  /* display: grid;
-  grid-template-columns: repeat(1fr); */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  /* margin-inline: 10%; */
   gap: 20px;
   margin-top: 30px;
-  /* text-align: center; */
-  /* width: 100%; */
-  /* max-width: 1440px; */
 }
 
 .product {
@@ -17,16 +11,12 @@
   background-repeat: no-repeat;
   height: 330px;
   width: 275px;
-  /* width: 27; */
   background-position: center;
   position: relative;
-  /* display: flex;
-  justify-content: center; */
   margin-inline: auto;
 }
 
 .product__content {
-  /* background-color: antiquewhite; */
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -58,9 +48,6 @@
   .product {
     margin-inline: unset;
     width: unset;
-    /* flex-grow: 1; */
     width: 275px;
-
-    /* width: 275px; */
   }
 }

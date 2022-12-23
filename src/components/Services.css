@@ -1,5 +1,4 @@
 .con {
-  /* margin-inline: 10%; */
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -11,39 +10,16 @@
 
 .services {
   display: flex;
-  /* grid-template-columns: repeat(1, 1fr); */
   flex-direction: column;
   margin-top: 20px;
-
-  /* margin-inline: 10%; */
-
-  /* text-align: center; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* justify-items: center; */
   gap: 80px;
-  /*width: 100%; */
-  /* width: 100%; */
-  /* background-color: #000; */
   margin-top: 50px;
 }
 
 .service {
-  /* width: 350px; */
-  /* height: 340px; */
   justify-items: center;
-  /* background-color: #000; */
   text-align: center;
   justify-content: space-between;
-  /* align-items: center; */
-  /* background-color: green; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* background-color: #fff; */
-  /* padding-bottom: 20px; */
-  /* background-color: #fcfcfc; */
   padding-block: 20px;
   background-color: lightblue;
 }
@@ -61,7 +37,6 @@
 
 .service p {
   margin-top: 10px;
-  /* text-align: center; */
 }
 
 .service a {
@@ -85,12 +60,6 @@
     font-size: 48px;
   }
 
-  /* .services {
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-top: 80px;
-  } */
-
   .services {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -101,31 +70,6 @@
     padding: 10px;
     border-radius: 5px;
   }
-
-  /* .service p {
-    margin-right: 18%;
-  } */
-
-  /* .service {
-    cursor: pointer;
-    padding-left: 10px;
-    border-radius: 5px;
-
-    flex-grow: 1;
-    width: 26%;
-  } */
-
-  /* .service img {
-    width: 99px;
-  }
-  .service h3 {
-    font-size: 20px;
-    margin-top: 5px;
-  } */
-
-  /* .service p {
-    margin-right: 18%;
-  } */
 
   .service a {
     margin-top: 10px;

@@ -35,21 +35,7 @@ function App() {
       errorElement: <ErrorPage />,
     },
   ]);
-  return (
-    // <Router>
-    //     <Route exact path="/" component={Home} />
-    //     <Route path="/about" component={About} />
-    //     <Route path="/products" component={Products} />
-    //     <Route path="/contact" component={Contact} />
-    //   </Switch>
-    // </Router>
-
-    // <div>
-    //   <Home />
-
-    // </div>
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

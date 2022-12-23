@@ -1,16 +1,10 @@
-// import React, { useState } from "react";
-
-// import "./ProductTabs.css";
-// import Modal from "./Modal";
 import Product from "./Product";
-// import Modal from "./Modal";
 
 import "./ProductTabs.css";
 
 import placeholder from "../images/product.webp";
 
 const ProductTabs = () => {
-  // const [show, setShow] = useState(false);
   const products = [
     { id: 1, name: "Product 1", image: placeholder },
     { id: 2, name: "Product 2", image: placeholder },
@@ -25,8 +19,6 @@ const ProductTabs = () => {
       {products.map((p) => (
         <Product key={p.id} name={p.name} image={p.image} />
       ))}
-
-      {/* <Modal /> */}
     </div>
   );
 };
