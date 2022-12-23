@@ -50,6 +50,12 @@
   z-index: 101;
 }
 
+.activeM {
+  /* background-color: #fff !important; */
+  color: var(--blue) !important;
+  font-weight: 700;
+}
+
 .header__items li:first-child {
   margin-top: 60px;
 }

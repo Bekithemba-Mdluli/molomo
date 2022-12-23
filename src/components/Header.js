@@ -43,7 +43,7 @@ function Header() {
         <li>
           <NavLink
             to="/"
-            className={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className={({ isActive }) => (isActive ? "activeM" : undefined)}
           >
             Home
           </NavLink>
@@ -51,7 +51,7 @@ function Header() {
         <li>
           <NavLink
             // className={({ isActive }) => (isActive ? activeStyle : undefined)}
-            className={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className={({ isActive }) => (isActive ? "activeM" : undefined)}
             to="/about"
           >
             About
@@ -59,7 +59,7 @@ function Header() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className={({ isActive }) => (isActive ? "activeM" : undefined)}
             to="/products"
           >
             Products
@@ -67,7 +67,7 @@ function Header() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className={({ isActive }) => (isActive ? "activeM" : undefined)}
             to="/contact"
           >
             Contact
