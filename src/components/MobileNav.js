@@ -1,21 +1,41 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function MobileNav() {
   return (
     <ul className={"header__itemsD hide-for-mobile"}>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "activeD" : undefined)}
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <NavLink
+          className={({ isActive }) => (isActive ? "activeD" : undefined)}
+          to="/about"
+        >
+          About
+        </NavLink>
       </li>
       <li>
-        <Link to="/products">Products</Link>
+        <NavLink
+          to="/products"
+          className={({ isActive }) => (isActive ? "activeD" : undefined)}
+        >
+          Products
+        </NavLink>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) => (isActive ? "activeD" : undefined)}
+        >
+          Contact
+        </NavLink>
       </li>
       <li>
         <a href="tel:+27234567890">

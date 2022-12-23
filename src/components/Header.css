@@ -111,4 +111,12 @@
   .header {
     height: 100px;
   }
+
+  .activeD::after {
+    content: "";
+    display: block;
+    width: 70%;
+    padding-top: 10px;
+    border-bottom: 3px solid var(--secondary);
+  }
 }

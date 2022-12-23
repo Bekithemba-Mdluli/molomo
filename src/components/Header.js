@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import logo from "../images/logo.webp";
 import menu from "../images/icons/icon-menu.webp";
@@ -9,6 +9,7 @@ import MobileNav from "./MobileNav";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  // const [isActive, setIsActive] = useState(true);
   // TODO FIX NO SCROLL BUG
 
   const handleNav = () => {
@@ -18,6 +19,11 @@ function Header() {
     isOpen
       ? document.body.classList.remove("no-scroll")
       : document.body.classList.add("no-scroll");
+  };
+
+  let activeStyle = {
+    textDecoration: "underline",
+    // backgroundColor: "green",
   };
 
   return (
@@ -35,16 +41,37 @@ function Header() {
         style={{ display: isOpen ? "block" : "none" }}
       >
         <li>
-          <Link to="/">Home</Link>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink
+            // className={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className={({ isActive }) => (isActive ? activeStyle : undefined)}
+            to="/about"
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <Link to="/products">Products</Link>
+          <NavLink
+            className={({ isActive }) => (isActive ? activeStyle : undefined)}
+            to="/products"
+          >
+            Products
+          </NavLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <NavLink
+            className={({ isActive }) => (isActive ? activeStyle : undefined)}
+            to="/contact"
+          >
+            Contact
+          </NavLink>
         </li>
         <li>
           <a href="/">
