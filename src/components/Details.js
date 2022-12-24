@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import placeholder from "../images/placeholder.webp";
 
@@ -20,9 +21,9 @@ function Details() {
           lobortis.
         </p>
         <div className="details__left-btn">
-          <a className="button" href="/">
+          <Link className="button" to="/contact">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
 

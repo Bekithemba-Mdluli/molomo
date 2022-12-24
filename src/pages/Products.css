@@ -29,7 +29,7 @@
 @media screen and (min-width: 641px) {
   .racking h2 {
     font-size: 58px;
-    width: 400px;
+    /* width: 400px; */
   }
 
   .racking h4 {
