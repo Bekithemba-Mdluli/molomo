@@ -1,0 +1,134 @@
+.error{
+    text-align: center;
+}
+
+/* OOPS */
+.content{
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Something... */
+.content2{
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* 404 image */
+.errorImg img{
+    position: relative;
+    left: 5px;
+    bottom: 45px;
+    width: 50%;
+}
+
+/* error page not found */
+.content3 p{
+    position: relative;
+    bottom: 120px;
+    font-size: 33px;
+    font-weight: bold;
+}
+/* button */
+.btn a{
+    position: relative;
+    bottom: 80px;
+    border: 2px solid #0b4ebb;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: #3580f8;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn a:hover{
+    background-color: #0b4ebb;
+    color: #fff;
+}
+/* -------------------------------------------------------*/
+
+/* Desktop */
+@media (max-width: 941px) {
+    .content{
+        position: relative;
+        left: 40px;
+    }
+    .content2{
+        position: relative;
+        left: 40px;
+    }
+    .errorImg img{
+        position: relative;
+        top: 2px;
+        left: 40px;
+        width: 80%;
+        height: 50vh;
+    }
+    .content3{
+        position: relative;
+        left: 40px;
+    }
+    .btn a{
+        position: relative;
+        left: 40px;
+    }
+}
+
+
+/* small device */
+@media (min-width: 641px) {
+    .content{
+        position: relative;
+        left: 33px;
+    }
+    .content2{
+        position: relative;
+        left: 33px;
+    }
+    .errorImg img{
+        margin-left: 5%;
+        width: 38%;
+    }
+    .content3{
+        position: relative;
+        left: 33px;
+        bottom: 20px;
+    }
+    .btn a{
+        position: relative;
+        left: 33px;
+        bottom: 130px;
+    }
+}
+@media (max-width: 281px) {
+    .content{
+        position: relative;
+        left: 80px;
+    }
+    .content2{
+        position: relative;
+        left: 80px;
+    }
+    .errorImg img{
+        position: relative;
+        left: 80px;
+        width: 100%;
+        height: 75vh;
+    }
+    .content3{
+        position: relative;
+        left: 80px;
+    }
+    .btn a{
+        position: relative;
+        left: 80px;
+    }
+}
