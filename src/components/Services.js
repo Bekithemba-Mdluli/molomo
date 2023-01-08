@@ -1,9 +1,9 @@
 import React from "react";
 
-import storage from "../images/locker.webp";
-import mezzanine from "../images/mezzanine.webp";
-import racking from "../images/racking.webp";
-import shelving from "../images/shelving.webp";
+import storage from "../images/storage32.webp";
+import mezzanine from "../images/mezzanine32.webp";
+import racking from "../images/racking32.webp";
+import shelving from "../images/shelving32.webp";
 
 import Service from "./Service";
 
