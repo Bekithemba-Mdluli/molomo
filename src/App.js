@@ -10,6 +10,8 @@ import Storage from "./pages/Storage";
 import Shelving from "./pages/Shelving";
 import Mezzanine from "./pages/Mezzanine";
 
+import "./App.css";
+
 function App() {
   const router = createBrowserRouter([
     {
@@ -45,9 +47,8 @@ function App() {
       element: <Mezzanine />,
     },
     {
-      path: "/",
-      element: <Home />,
-      errorElement: <ErrorPage />,
+      path: "*",
+      element: <ErrorPage />,
     },
   ]);
   return <RouterProvider router={router} />;
