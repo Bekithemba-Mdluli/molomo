@@ -1,12 +1,11 @@
-import ProductTabs from "../components/ProductTabs";
-import Footer from "../components/Footer";
-import Footer2 from "../components/Footer2";
+import ProductTabs from "../components/ProductTabs.js";
+import Footer from "../components/Footer.js";
 
 function Products() {
   return (
     <>
       <ProductTabs />
-      <Footer2 />
+      <Footer />
     </>
   );
 }
