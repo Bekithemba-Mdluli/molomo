@@ -113,4 +113,15 @@
     padding-top: 10px;
     border-bottom: 3px solid var(--secondary);
   }
+
+  .header__itemsD a:hover::after {
+    /* content: ""; */
+    /* color: var(--secondary); */
+
+    content: "";
+    display: block;
+    width: 70%;
+    padding-top: 10px;
+    border-bottom: 3px solid var(--secondary);
+  }
 }

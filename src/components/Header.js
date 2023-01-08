@@ -28,7 +28,7 @@ function Header() {
         <img src={menu} alt="Hamburger menu" />
       </div>
       <ul
-        className={"header__items hide-for-desktop"}
+        className="header__items hide-for-desktop"
         style={{ display: isOpen ? "block" : "none" }}
       >
         <li>
