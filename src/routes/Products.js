@@ -1,5 +1,6 @@
 import ProductTabs from "../components/ProductTabs";
 import Intro from "../components/Intro";
+import Footer from "../components/Footer";
 
 function Products() {
   document.body.classList.remove("no-scroll");
@@ -9,6 +10,7 @@ function Products() {
       <div className="container">
         <ProductTabs />
       </div>
+      <Footer />
     </>
   );
 }
