@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Social({ image, name }) {
+function Social({ image, name, url }) {
   return (
     <>
-      <img className="social" src={image} alt={name} />
+      <a className="social__link" href={url}>
+        <img className="social" src={image} alt={name} />
+      </a>
     </>
   );
 }

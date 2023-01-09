@@ -28,8 +28,13 @@ function Header() {
         <img src={menu} alt="Hamburger menu" />
       </div>
       <ul
-        className="header__items hide-for-desktop"
-        style={{ display: isOpen ? "block" : "none" }}
+        className={
+          isOpen
+            ? "header__items open hide-for-desktop"
+            : "header__items hide-for-desktop"
+        }
+        // style={{ display: isOpen ? "block" : "none" }}
+        style={{ overflowY: isOpen ? "auto" : "hidden" }}
       >
         <li>
           <NavLink
