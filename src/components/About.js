@@ -5,6 +5,7 @@ import "./About.css";
 // import Footer from "./Footer2";
 // import Header from "./Header";
 import Intro from "./Intro";
+import Footer from "./Footer";
 
 function About() {
   document.body.classList.remove("no-scroll");
@@ -92,6 +93,8 @@ function About() {
         <div className="img3">
           <img src={pic3} alt="construction3"></img>
         </div> */}
+
+    <Footer />
     </div>
   );
 }

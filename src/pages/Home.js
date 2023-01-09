@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Panel from "../components/Panel";
 import Services from "../components/Services";
 import Slider from "../components/Slider";
+import Footer from "../components/Footer";
 
 import placehoder from "../images/placeholder.webp";
 
@@ -28,6 +29,7 @@ function Home() {
         <Details button={true} text={text} heading={heading} image={image} />
         <Services />
       </div>
+      <Footer />
     </div>
   );
 }
