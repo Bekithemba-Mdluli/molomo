@@ -32,11 +32,17 @@ const ProductTabs = () => {
   ];
 
   return (
-    <div className="products">
-      {products.map((p) => (
-        <Product key={p.id} name={p.title} image={p.img} url={p.url} />
-      ))}
-    </div>
+    <>
+      <div className="products__text">
+        <h1>Products We Offer</h1>
+        <span className="ruler"></span>
+      </div>
+      <div className="products">
+        {products.map((p) => (
+          <Product key={p.id} name={p.title} image={p.img} url={p.url} />
+        ))}
+      </div>
+    </>
   );
 };
 
