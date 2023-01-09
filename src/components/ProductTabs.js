@@ -2,10 +2,10 @@ import Product from "./Product";
 
 import "./ProductTabs.css";
 
-import storage from "../images/locker.webp";
-import mezzanine from "../images/mezzanine.webp";
-import racking from "../images/racking.webp";
-import shelving from "../images/shelving.webp";
+import storage from "../images/locker42.webp";
+import mezzanine from "../images/mezzanine42.webp";
+import racking from "../images/racking42.webp";
+import shelving from "../images/shelving42.webp";
 
 const ProductTabs = () => {
   const products = [
