@@ -24,7 +24,7 @@
 .error__btn {
   border: 1px solid var(--blue);
   color: var(--blue);
-  padding: 7px 20px;
+  padding: 7px 35px;
   border-radius: 8px;
   text-decoration: none;
 }
@@ -35,4 +35,22 @@
 
 .error__page {
   background-color: #fff;
+}
+
+.error__top {
+  font-weight: 500;
+}
+
+.error__text {
+  font-weight: 400;
+}
+
+@media (min-width: 641px) {
+  .error__top {
+    font-size: 54px;
+  }
+
+  .error__text {
+    font-size: 34px;
+  }
 }

@@ -6,7 +6,7 @@ function Service({ img, title, text, url }) {
   return (
     <div className="service">
       <div className="service__img">
-        <img src={img} alt="Building" />
+        <img src={img} alt={title} loading="lazy" />
       </div>
       <h3>{title}</h3>
       <p>{text}</p>

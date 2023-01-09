@@ -15,17 +15,17 @@ export default function ErrorPage() {
 
       <div className="error">
         <h2 className="error__top">
-          OPPS <br /> <span>Something went wrong</span>
+          OOPS <br /> <span className="error__text">Something went wrong</span>
         </h2>
 
         <div className="error__img">
           <img src={errorImage} alt="404" />
         </div>
 
-        <h2 className="error__bottom">Error 404 page not found</h2>
+        <h2 className="error__text">Error 404 page not found</h2>
 
         <Link to="/" className="error__btn">
-          Home
+          home
         </Link>
       </div>
     </div>
