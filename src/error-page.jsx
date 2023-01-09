@@ -8,7 +8,7 @@ export default function ErrorPage() {
   // console.error(error);
 
   return (
-    <div>
+    <div className="error__page">
       <div className="ec">
         <Header />
       </div>
