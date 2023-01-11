@@ -18,7 +18,7 @@ function Racking() {
       <div className="container">
         <div className="racking">
           <div className="racking__img">
-            <img src={rackingIMG} alt="Racking" />
+            <img src={rackingIMG} alt="Racking" loading="lazy" />
           </div>
           <div>
             <h2>{racking.title}</h2>
