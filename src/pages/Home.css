@@ -10,14 +10,25 @@
 .home__title {
   display: flex;
   justify-content: center;
-  margin-top: 20%;
-  margin-inline: auto;
+  align-items: center;
+  /* margin-top: 20%; */
+  /* margin-inline: auto; */
+  /* position: relative; */
+  /* top: 0; */
+  /* background-color: green; */
+  /* height: 100%; */
+  position: absolute;
+  top: 16vh;
+  left: 20%;
+  right: 20%;
 }
 
 .home h1 {
   font-size: 30px;
   width: 190px;
   color: #fff;
+  /* position: absolute; */
+  /* top: 10%; */
 }
 
 @media screen and (min-width: 641px) {
@@ -29,5 +40,10 @@
   .home h1 {
     font-size: 58px;
     width: 400px;
+  }
+
+  .home__title {
+    top: 36vh;
+    left: 22%;
   }
 }
