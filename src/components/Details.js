@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import placeholder from "../images/placeholder.webp";
+import placeholder from "../images/aboutUs.webp";
 
 import "./Details.css";
 
