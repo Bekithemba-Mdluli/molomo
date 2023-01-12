@@ -1,7 +1,7 @@
 import Home from "./pages/Home";
 import About from "./components/About";
-import Products from "./routes/Products";
-import Contact from "./routes/Contact";
+import Products from "./pages/Products";
+import Contact from "./pages/Contact";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./error-page";
